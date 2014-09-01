@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+  function ingresar(numeros)
+  {
+    	var l;
+    	var num = 0;
+  		var i;
+  		document.write('lista <br>');
+    			for(l=0;l<numeros.length;l++)
+    			{
+      			var v;
+      				v=prompt('Ingrese numero:','');
+      				numeros[l]=parseInt(v); 
+      						if(numeros[l]%2==0) {
+      						        
+      		document.write('par ',numeros[l],'<br>');    	
+      													}
+      			else {
+      	document.write('impar',numeros[l],'<br>');
+      }
+    }
+    
+ 					
+   } 
+  
+  
+  	
+   
+  
+  var numeros;
+  numeros=new Array(5);
+  ingresar(numeros);
+  primo(numero);
+ 
+  
+  </script>
+
+</body>
+</html>
